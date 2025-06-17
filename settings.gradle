@@ -1,4 +1,4 @@
-rootProject.name = 'test-tasks'
+rootProject.name = 'Test-2025-3'
 
 include 'liquid-sorter'
 include 'file-uploader'

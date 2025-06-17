@@ -5,6 +5,11 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/file-uploader" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/file-uploader" />
+          </set>
+        </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/file-uploder" />
@@ -20,6 +25,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/liquid-sorter" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/weather-service" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/8.14.2/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/weather-service" />
           </set>
         </option>
       </GradleProjectSettings>
