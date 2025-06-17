@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="file-upload" target="17" />
+      <module name="file-upload.main" target="17" />
+      <module name="file-upload.test" target="17" />
+      <module name="liquid-sorter" target="17" />
+      <module name="liquid-sorter.main" target="17" />
+      <module name="liquid-sorter.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

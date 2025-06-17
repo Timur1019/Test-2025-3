@@ -3,7 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Test-2025-3.iml" filepath="$PROJECT_DIR$/Test-2025-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-upload.iml" filepath="$PROJECT_DIR$/file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file-upload.main.iml" filepath="$PROJECT_DIR$/.idea/modules/file-upload.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file-upload.test.iml" filepath="$PROJECT_DIR$/.idea/modules/file-upload.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file-uploder.main.iml" filepath="$PROJECT_DIR$/.idea/modules/file-uploder.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/file-uploder.test.iml" filepath="$PROJECT_DIR$/.idea/modules/file-uploder.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/liquid-sorter.iml" filepath="$PROJECT_DIR$/liquid-sorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/liquid-sorter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/liquid-sorter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/liquid-sorter.test.iml" filepath="$PROJECT_DIR$/.idea/modules/liquid-sorter.test.iml" />
     </modules>
   </component>
 </project>
