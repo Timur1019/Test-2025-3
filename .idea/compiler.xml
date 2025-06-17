@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="test-tasks.file-uploader" target="17" />
+      <module name="test-tasks.file-uploader.test" target="17" />
+      <module name="test-tasks.liquid-sorter.main" target="17" />
+      <module name="test-tasks.liquid-sorter.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
