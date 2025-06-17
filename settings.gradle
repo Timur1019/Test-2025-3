@@ -1,0 +1,5 @@
+rootProject.name = 'test-tasks'
+
+include 'liquid-sorter'
+include 'file-uploader'
+include 'weather-service'
