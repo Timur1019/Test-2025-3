@@ -3,3 +3,28 @@ allprojects {
         mavenCentral()
     }
 }
+
+def setupFrontendRunner(String name, String path) {
+    tasks.register("run${name}Frontend", Exec) {
+        group = "frontend"
+        description = "Запускает фронтенд в ${path}"
+
+        workingDir = file(path)
+        commandLine = ['npm', 'install']
+        doLast {
+            exec {
+                workingDir = file(path)
+                commandLine = ['npx', 'serve']
+            }
+        }
+    }
+}
+
+setupFrontendRunner('FileUploader', 'file-uploader/front')
+setupFrontendRunner('Weather', 'weather-service/weather-frontend')
+
+tasks.register("runAllFrontends") {
+    group = "frontend"
+    description = "Запускает оба фронтенда"
+    dependsOn 'runFileUploaderFrontend', 'runWeatherFrontend'
+}

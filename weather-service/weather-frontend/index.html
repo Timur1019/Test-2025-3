@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>🌤️ Прогноз погоды</h1>
+    <form id="weatherForm">
+        <input type="text" id="city" placeholder="Введите название города..." required>
+        <button type="submit">Получить погоду</button>
+    </form>
+    <div id="error" class="error" style="color: red; margin-top: 10px;"></div>
+    <canvas id="weatherChart" width="800" height="400"></canvas>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
